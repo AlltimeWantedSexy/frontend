@@ -1,13 +1,17 @@
-import React from 'react';
+import { Suspense } from 'react';
+import { RecoilRoot } from 'recoil';
 
-import Hello from '@/component/Hello';
+import '@/styles/font.css';
+import Router from './routes';
+import Hello from './component/Hello';
 
 const App = () => {
   return (
-    <div>
-      Hello World
-      <Hello />
-    </div>
+    <Suspense fallback={<Hello />}>
+      <RecoilRoot>
+        <Router />
+      </RecoilRoot>
+    </Suspense>
   );
 };
 export default App;
