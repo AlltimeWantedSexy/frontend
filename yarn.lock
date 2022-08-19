@@ -6838,6 +6838,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-is@npm:^18.2.0":
+  version: 18.2.0
+  resolution: "react-is@npm:18.2.0"
+  checksum: e72d0ba81b5922759e4aff17e0252bd29988f9642ed817f56b25a3e217e13eea8a7f2322af99a06edb779da12d5d636e9fda473d620df9a3da0df2a74141d53e
+  languageName: node
+  linkType: hard
+
 "react-router-dom@npm:^6.3.0":
   version: 6.3.0
   resolution: "react-router-dom@npm:6.3.0"
@@ -8129,6 +8136,7 @@ __metadata:
     process: ^0.11.10
     react: ^18.2.0
     react-dom: ^18.2.0
+    react-is: ^18.2.0
     react-router-dom: ^6.3.0
     recoil: ^0.7.5
     style-loader: ^3.3.1

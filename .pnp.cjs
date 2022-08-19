@@ -68,6 +68,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["process", "npm:0.11.10"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:96a8f36d215e0bdfce0faeb64afd7b1ede3048d67e9ccb72cc7b4f60d8f9931d3b5d9928ea44b89e4a6a4e2c54a4347dd35b4c7c86fbf5ee616e1aab73414f4d#npm:18.2.0"],\
+            ["react-is", "npm:18.2.0"],\
             ["react-router-dom", "virtual:96a8f36d215e0bdfce0faeb64afd7b1ede3048d67e9ccb72cc7b4f60d8f9931d3b5d9928ea44b89e4a6a4e2c54a4347dd35b4c7c86fbf5ee616e1aab73414f4d#npm:6.3.0"],\
             ["recoil", "virtual:96a8f36d215e0bdfce0faeb64afd7b1ede3048d67e9ccb72cc7b4f60d8f9931d3b5d9928ea44b89e4a6a4e2c54a4347dd35b4c7c86fbf5ee616e1aab73414f4d#npm:0.7.5"],\
             ["style-loader", "virtual:96a8f36d215e0bdfce0faeb64afd7b1ede3048d67e9ccb72cc7b4f60d8f9931d3b5d9928ea44b89e4a6a4e2c54a4347dd35b4c7c86fbf5ee616e1aab73414f4d#npm:3.3.1"],\
@@ -9531,6 +9532,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-is", "npm:16.13.1"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:18.2.0", {\
+          "packageLocation": "./.yarn/cache/react-is-npm-18.2.0-0cc5edb910-e72d0ba81b.zip/node_modules/react-is/",\
+          "packageDependencies": [\
+            ["react-is", "npm:18.2.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["react-router", [\
@@ -10457,7 +10465,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["hoist-non-react-statics", "npm:3.3.2"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:96a8f36d215e0bdfce0faeb64afd7b1ede3048d67e9ccb72cc7b4f60d8f9931d3b5d9928ea44b89e4a6a4e2c54a4347dd35b4c7c86fbf5ee616e1aab73414f4d#npm:18.2.0"],\
-            ["react-is", null],\
+            ["react-is", "npm:18.2.0"],\
             ["shallowequal", "npm:1.1.0"],\
             ["supports-color", "npm:5.5.0"]\
           ],\
@@ -11098,6 +11106,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["process", "npm:0.11.10"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:96a8f36d215e0bdfce0faeb64afd7b1ede3048d67e9ccb72cc7b4f60d8f9931d3b5d9928ea44b89e4a6a4e2c54a4347dd35b4c7c86fbf5ee616e1aab73414f4d#npm:18.2.0"],\
+            ["react-is", "npm:18.2.0"],\
             ["react-router-dom", "virtual:96a8f36d215e0bdfce0faeb64afd7b1ede3048d67e9ccb72cc7b4f60d8f9931d3b5d9928ea44b89e4a6a4e2c54a4347dd35b4c7c86fbf5ee616e1aab73414f4d#npm:6.3.0"],\
             ["recoil", "virtual:96a8f36d215e0bdfce0faeb64afd7b1ede3048d67e9ccb72cc7b4f60d8f9931d3b5d9928ea44b89e4a6a4e2c54a4347dd35b4c7c86fbf5ee616e1aab73414f4d#npm:0.7.5"],\
             ["style-loader", "virtual:96a8f36d215e0bdfce0faeb64afd7b1ede3048d67e9ccb72cc7b4f60d8f9931d3b5d9928ea44b89e4a6a4e2c54a4347dd35b4c7c86fbf5ee616e1aab73414f4d#npm:3.3.1"],\
