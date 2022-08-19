@@ -1,5 +1,5 @@
 const Main: React.FC = () => {
-  return <div></div>;
+  return <div>하이하이</div>;
 };
 
 export default Main;
