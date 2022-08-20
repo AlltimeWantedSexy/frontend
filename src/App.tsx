@@ -1,16 +1,18 @@
 import { Suspense } from 'react';
 import { RecoilRoot } from 'recoil';
+import { ToastContainer } from 'react-toastify';
 
 import '@/styles/font.css';
 import Router from './routes';
-import Hello from './component/Hello';
+import LoadingPage from './pages/LoadingPage';
 
 const App = () => {
   return (
-    <Suspense fallback={<Hello />}>
+    <Suspense fallback={<LoadingPage />}>
       <RecoilRoot>
         <Router />
       </RecoilRoot>
+      <ToastContainer />
     </Suspense>
   );
 };
