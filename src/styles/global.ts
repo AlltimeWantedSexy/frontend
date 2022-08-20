@@ -12,6 +12,9 @@ export const TextStyles = {
     font-size: 32px;
     line-height: 40px;
   `,
+  Headline4: css`
+    font-size: 14px;
+  `,
 };
 
 const GlobalStyle = createGlobalStyle`
@@ -40,6 +43,9 @@ const GlobalStyle = createGlobalStyle`
         }
         h3{
             font-size: 1.17em;
+        }
+        h4{
+            ${TextStyles.Headline4}
         }
         ul, ol { 
             display: block;
