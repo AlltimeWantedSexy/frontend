@@ -11,7 +11,7 @@ export const QuizContainer = styled.div`
 `;
 
 export const QuizSelectContainer = styled.div`
-  width: 80%;
+  width: 70%;
   height: 50%;
   display: flex;
   flex-direction: row;
