@@ -7,6 +7,7 @@ export const QuizContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 2;
 `;
 
 export const QuizSelectContainer = styled.div`

@@ -7,7 +7,5 @@ export const Layout = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: #00d2ff;
-  background: -webkit-linear-gradient(to right, #00d2ff, #3a7bd5);
-  background: linear-gradient(to right, #00d2ff, #3a7bd5);
+  background: linear-gradient(180deg, rgba(0, 38, 135, 0.2) 0%, rgba(0, 0, 0, 0) 100%), #c2deff;
 `;
