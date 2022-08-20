@@ -10,7 +10,7 @@ const QuizPage: React.FC = () => {
   return (
     <Layout>
       <GameTopBar snow={80} totalSnow={100} />
-      <Quiz selectOptions={['yes', 'no', 'hihi', 'hii']} question="yes" />
+      <Quiz selectOptions={['yes', 'no', 'hihi', 'hii']} question="yes" maxGame={5} nowGame={2} />
       <Background />
     </Layout>
   );

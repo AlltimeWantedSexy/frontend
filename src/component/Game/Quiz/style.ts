@@ -17,6 +17,7 @@ export const QuizSelectContainer = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  align-content: center;
   gap: 20px;
   flex-wrap: wrap;
 `;

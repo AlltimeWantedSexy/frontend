@@ -1,5 +1,14 @@
+import { Layout } from './style';
+import Main from '@/component/Main';
+import Background from '@/component/Background';
+
 const MainPage: React.FC = () => {
-  return <div>하이하이</div>;
+  return (
+    <Layout>
+      <Main />
+      <Background />
+    </Layout>
+  );
 };
 
 export default MainPage;
