@@ -1,5 +1,18 @@
 import { createGlobalStyle } from 'styled-components';
 import reset from 'styled-reset';
+import { css } from 'styled-components';
+
+export const TextStyles = {
+  Headline1: css`
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 44px;
+  `,
+  Headline2: css`
+    font-size: 32px;
+    line-height: 40px;
+  `,
+};
 
 const GlobalStyle = createGlobalStyle`
     ${reset}
@@ -20,10 +33,10 @@ const GlobalStyle = createGlobalStyle`
         -webkit-font-smoothing: antialiased;
 	    -moz-osx-font-smoothing: grayscale;
         h1{
-            font-size: 2em;
+            ${TextStyles.Headline1}
         }
         h2{
-            font-size: 1.5em;
+            ${TextStyles.Headline2}
         }
         h3{
             font-size: 1.17em;
