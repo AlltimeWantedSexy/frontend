@@ -11,12 +11,12 @@ export const QuizContainer = styled.div`
 `;
 
 export const QuizSelectContainer = styled.div`
-  width: 70%;
+  width: 60%;
   height: 50%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
   flex-wrap: wrap;
 `;

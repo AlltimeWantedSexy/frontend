@@ -9,8 +9,8 @@ export const TextStyles = {
     line-height: 44px;
   `,
   Headline2: css`
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 24px;
+    line-height: 30px;
   `,
   Headline4: css`
     font-size: 14px;

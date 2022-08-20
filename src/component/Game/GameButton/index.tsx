@@ -12,7 +12,7 @@ const GameButton: React.FC<Props> = ({ selectOption, setSubmittedOption }: Props
         setSubmittedOption(selectOption);
       }}
     >
-      <h1>{selectOption}</h1>
+      <h2>{selectOption}</h2>
     </GameButtonContainer>
   );
 };
