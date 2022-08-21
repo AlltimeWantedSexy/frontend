@@ -5,10 +5,14 @@ const snowflakeURL: string =
 const snowhillURL: string =
   'https://image-snapshot-storage.s3.ap-northeast-2.amazonaws.com/234a796a-134c-4f7d-b276-c5bb8e510d38/4a28b1a8-7b69-48ed-9123-aedc5ca169f5';
 
+const snowmanURL: string =
+  'https://image-snapshot-storage.s3.ap-northeast-2.amazonaws.com/3fe06eea-e873-497b-8748-bd435edd4618/238303d6-29d6-4093-b8c0-6e19395117b6';
+
 const Background: React.FC = () => {
   return (
     <BackgroundImageContainer>
       <img src={snowhillURL} alt="background-image" />
+      <img src={snowmanURL} alt="snowman" />
     </BackgroundImageContainer>
   );
 };

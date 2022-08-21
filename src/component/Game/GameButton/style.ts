@@ -13,4 +13,8 @@ export const GameButtonContainer = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
+
+  &:hover {
+    background-color: ${Colors.Mint};
+  }
 `;
